@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Bureau/HTML/TP4"
+		},
+		{
+			"path": "../../../../Bureau/HTML"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}

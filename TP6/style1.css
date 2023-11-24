@@ -1,0 +1,26 @@
+
+h1{font-family: 'Marko One', serif; color: #993399; font-size: 1.5em;}
+h2{ font-size: 1em;color: #CC6600;letter-spacing: 8px;text-transform: uppercase;   }
+#div1{text-align: center;}
+
+#div1 p{color:  #808080;}
+#div1 .label{font-weight: bold;}
+
+.c4{ font-size: xx-large;}
+
+
+
+.c1{list-style:lower-roman;}
+.c2{list-style: circle;}
+.c3{list-style: disc;}
+.c4{list-style-image:url("images/bull.PNG");}
+
+
+
+dt{color: #A0522D;}
+strong{color: #FF0000;}
+.price{color:  #808080;font-family: Georgia, 'Times New Roman', Times, serif;font-style: italic;}
+.warning{color: #FF6347;}
+
+
+*{font-family: Verdana, sans-serif;}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+ <meta charset="utf-8">
+ <title> index </title>
+ </head>
+ <body>
+    <h1> Formulaire de sondage informatique</h1>
+    
+    
+    <hr>
+        <h4><i>Merci de bien vouloir remplir et valider le formulaire suivant :</i></h4>
+     <form>
+        <label>
+    Identité
+    <br>
+    <br>
+        Nom <input type="text" name="namea">             Prénom <input type="text" name="nameb"> 
+         </label>
+         <label>
+            <br>
+            <br>
+            Sondage informatique
+            <br>
+            <br>
+            Niveau en programmation <select name="Niveau" id="niv">
+                
+                <option>Faible</option>
+                <option>Intermédiaire</option>
+                <option>Elevé</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <label>Système d'exploitation :
+
+            Unix/Linux<input type="radio" name="sys" value="1">
+            Mac OS<input type="radio" name="sys" value="2"> 
+            Windows<input type="radio" name="sys" value="3"> 
+            Autre<input type="radio" name="sys" value="4"> </label>
+            <br>
+            <br>
+        <label>Langages de programmation connus :
+            
+            C/C++<input type="checkbox" name="sys" value="1">
+            Python<input type="checkbox" name="sys" value="2"> 
+            JavaScript<input type="checkbox" name="sys" value="3"> 
+            Java<input type="checkbox" name="sys" value="4">
+            PHP<input type="checkbox" name="sys" value="5">
+        </label>
+        <br>
+        <br>
+        <label>Besoin(s) en Formation</label>
+        <br>
+        <br>
+        <label>Formuler vos besoins en formation:</label>
+        <br>
+        <textarea name="besoins" cols="80" rows="10">
+        </textarea>
+            
+        <br>
+        <br>
+        <input type="submit" name="action" value="Valider">
+        <input type="reset"  name="action" value="Tout Effacer">
+    </form>
+
+ </body>
+</html>
