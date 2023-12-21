@@ -1,0 +1,27 @@
+
+
+
+
+
+
+
+
+body{ background-color: chocolate;}
+#sapin{background-image: url("../images/Transparent_Pine_Tree_PNG_Clipart.png");min-width:100% ;min-height:100%;background-repeat: no-repeat; background-size: cover;display: flex;justify-content: space-between;flex-direction: column; background-position: center;}
+
+#sapin * :not(#star) {margin: 10rem; width: 15rem ;   ; background-color: crimson;border-radius:100% ; justify-content: center; padding: 1rem;}
+
+
+#sapin div * {margin: auto;}
+
+#star{max-width: 30rem; ; align-self: center;margin-top: -10rem;}
+
+
+
+
+#a{margin-left: 40rem;}
+#b{margin-left: 55rem;}
+#c{margin-left: 30rem;}
+#d{margin-left: 70rem;}
+#e{margin-left: 20rem;}
+#f{margin-left: 65rem;}

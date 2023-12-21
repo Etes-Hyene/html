@@ -1,0 +1,24 @@
+body{background-color: wheat;}
+
+#sort{display: flex; flex-direction: row; height: 28rem; overflow: scroll;;}
+
+#item{ border: darksalmon 1rem; background-color: tomato; display: flex; padding: 2rem ;flex-direction: column; margin-right:10rem; margin-left:5rem;margin-bottom: 5rem; align-items: center; justify-content:last baseline; min-width:  30rem;  border-radius: 10%; }
+
+
+
+img{max-height:75%; min-width:90%;border-radius: 10%;}
+
+
+h1{padding-bottom: 2rem;padding-top: 5rem;color:darkmagenta;-webkit-text-stroke: deeppink 0.1rem;}
+
+
+
+#décos{margin-bottom: 2rem; background-image: url("../images/9698816.jpg");}
+#jouets{background-image: url("../images/vecteezy_seamless-christmas-pattern-with-elf-legs-from-gift-box_.jpg");}
+#plats{background-image: url("../images/food.webp");margin-bottom: 2rem;}
+#pulls{background-image:url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");margin-bottom: 2rem;}
+
+
+button{background-color: burlywood;outline: brown;padding: 1em;margin: 1em;padding-left: 2em; padding-right: 2em; }
+
+
