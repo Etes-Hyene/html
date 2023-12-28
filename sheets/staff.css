@@ -9,10 +9,7 @@
 body{ background-color: chocolate;}
 #sapin{background-image: url("../images/Transparent_Pine_Tree_PNG_Clipart.png");min-width:100% ;min-height:100%;background-repeat: no-repeat; background-size: cover;display: flex;justify-content: space-between;flex-direction: column; background-position: center;}
 
-#sapin * :not(#star) {margin: 10rem; width: 15rem ;   ; background-color: crimson;border-radius:100% ; justify-content: center; padding: 1rem;}
-
-
-#sapin div * {margin: auto;}
+#sapin * :not(#star) {margin: 10rem; width: 10rem ; background-color: crimson;border-radius:100% ; justify-content: center; padding: 1rem;display: grid;height: 10rem;}
 
 #star{max-width: 30rem; ; align-self: center;margin-top: -10rem;}
 
@@ -25,3 +22,27 @@ body{ background-color: chocolate;}
 #d{margin-left: 70rem;}
 #e{margin-left: 20rem;}
 #f{margin-left: 65rem;}
+
+
+#a h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
+#b h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
+#c h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
+#d h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
+#e h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}   
+#f h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
+
+
+/* sert à faire disparaitre et apparaitre le texte avec l'indentation et l'image en ajoutant et enlevant l'image de fond quand l'utilisateur pointe sur la boule*/
+
+h3{text-indent:-9999px;}
+
+
+h3:hover{opacity: 100%;text-indent: 0;}
+
+
+#a h3:hover{ background-image: none}
+#b h3:hover{ background-image: none}
+#c h3:hover{ background-image: none}
+#d h3:hover{ background-image: none}
+#e h3:hover{ background-image: none}   
+#f h3:hover{ background-image: none}
