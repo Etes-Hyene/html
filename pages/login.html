@@ -2,11 +2,32 @@
 <html lang="fr">
  <head>
  <meta charset="utf-8">
+ <title> Accueil </title>
+ <link rel="stylesheet" href="../sheets/login.css">
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
  <meta name="viewport" content="width=device-width,initial-scale=1.0">
- <title> index </title>
-<link href="../sheets/login.css" rel="stylesheet">
  </head>
  <body>
- texte
- </body>
+    <div class="wrapper">
+      <form action="post">
+        <h1>Login</h1>
+        <div class="input-box">
+          <input type="text" placeholder="Nom" required>
+          <i class='bx bxs-user'></i>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Mot de passe" required>
+          <i class='bx bxs-lock-alt' ></i>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox">se Souvenir</label>
+          <a href="#">Not de passe oublier</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="register-link">
+          <p>Vous n'avez pas de compte ? <a href="#">Créer un compte</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
