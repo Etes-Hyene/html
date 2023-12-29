@@ -7,22 +7,35 @@
 
 
 body{ background-color: chocolate;}
+
+
+
+h1{text-align: center; color: goldenrod;background-color: crimson;margin-bottom: 10vw;}
+
+/* le sapin de noël*/
+
+
 #sapin{background-image: url("../images/Transparent_Pine_Tree_PNG_Clipart.png");min-width:100% ;min-height:100%;background-repeat: no-repeat; background-size: cover;display: flex;justify-content: space-between;flex-direction: column; background-position: center;}
 
-#sapin * :not(#star) {margin: 10rem; width: 10rem ; background-color: crimson;border-radius:100% ; justify-content: center; padding: 1rem;display: grid;height: 10rem;}
+#sapin * :not(#star) {margin: 10vw; width: 10vw ; background-color: crimson;border-radius:100% ; justify-content: center; padding: 1vw;display: grid;height: 10vw;}
 
-#star{max-width: 30rem; ; align-self: center;margin-top: -10rem;}
-
-
+#star{max-width: 30vw; ; align-self: center;margin-top: -10vw;}
 
 
-#a{margin-left: 40rem;}
-#b{margin-left: 55rem;}
-#c{margin-left: 30rem;}
-#d{margin-left: 70rem;}
-#e{margin-left: 20rem;}
-#f{margin-left: 65rem;}
+/* les boules de noël avec les photo, les noms et les roles des membres du personnel*/
 
+
+
+/* pour varier l'alignement horizontal des boules*/
+
+#a{margin-left: 35vw;}
+#b{margin-left: 50vw;}
+#c{margin-left: 10vw;}
+#d{margin-left: 65vw;}
+#e{margin-left: 15vw;}
+#f{margin-left: 60vw;}
+
+/* les photos du staff*/
 
 #a h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
 #b h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
