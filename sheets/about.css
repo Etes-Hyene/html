@@ -1,3 +1,16 @@
-#lettre{color: brown;background-color: burlywood;font-family:Verdana, Geneva, Tahoma, sans-serif;padding :1rem; display: flex ; flex-direction: column; font-style: italic; line-height: 500%; font-size:larger ;text-decoration:underline grey;}
 
 body{background-color:sienna;}
+
+/*chaque passage est présenté comme une lettre d'un style différent*/
+
+/*lettre d'introduction*/
+#lettre{color: brown;background-color: burlywood;font-family:Verdana, Geneva, Tahoma, sans-serif;padding :1rem; display: flex ; flex-direction: column; font-style: italic; line-height: 500%; font-size:larger ;text-decoration:underline grey;}
+
+/*paragraphe de présentation*/
+#intro{}
+
+/*présentation des objectifs*/
+#objectifs{}
+
+/*présentation de l'historique*/
+#historique{}
