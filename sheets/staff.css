@@ -6,11 +6,18 @@
 
 
 
-body{ background-color: chocolate;}
+body{ background-color: chocolate;margin: 0;}
 
 
+/*les header et footer de la page, leur barre de navigation avec tous leurs liens, la div titre contient le nom et le login*/
+#titre{display: flex;flex-direction: row; gap: 60vw;}
+#titre h1{color:yellow;font-size: 3vw;}
+header , footer{background-color: crimson; padding: 1vw;}
+nav{display: flex ;flex-direction: row; justify-content:center;}
+header a, footer a{color: greenyellow; margin-right: 10vw;font-size: xx-large;}
+header a:hover, footer a:hover{color: chartreuse;}
 
-h1{text-align: center; color: goldenrod;background-color: crimson;margin-bottom: 10vw;}
+h1:not(header *){text-align: center; color: goldenrod;background-color: sienna;margin-bottom: 10vw;}
 
 /* le sapin de noël*/
 

@@ -1,11 +1,25 @@
-body{background-color: wheat;}
+/*le fond de la page avec sa brodure sucre d'orge*/
 
+body{background-color: wheat; align-content: center;margin: 0;}
 
+/*la propriété border-image-slicepermet de répartir le dégradé sur tous les côtés*/
+
+body{border: solid 1vw; border-image: linear-gradient(45deg, red, red 5%, forestgreen 5%, forestgreen 10%, red 10%, red 15%, forestgreen 15%, forestgreen 20%, red 20%, red 25%, forestgreen 25%, forestgreen 30%, red 30%, red 35%, forestgreen 35%, forestgreen 40%, red 40%, red 45%, forestgreen 45%, forestgreen 50%, red 50%, red 55%, forestgreen 55%, forestgreen 60%, red 60%, red 65%, forestgreen 65%, forestgreen 70%, red 70%, red 75%, forestgreen 75%, forestgreen 80%, red 80%, red 85%, forestgreen 85%, forestgreen 90%, red 90%, red 95%, forestgreen 95%);border-image-repeat:stretch;border-image-slice: 1 1 1 1;}
+
+/*les header et footer de la page, leur barre de navigation avec tous leurs liens, la div titre contient le nom et le login*/
+#titre{display: flex;flex-direction: row; gap: 60vw;}
+#titre h1{color:yellow;font-size: 3vw;}
+header , footer{background-color: crimson; padding: 1vw;}
+nav{display: flex ;flex-direction: row; justify-content:center;}
+header a, footer a{color: greenyellow; margin-right: 10vw;font-size: xx-large;}
+header a:hover, footer a:hover{color: chartreuse;}
 
 /*l'image de couverture*/
 
 
 #cover{background-image: url("../images/christmas-home-design-with-beautiful-christmas-tree-cozy-night.jpg");background-repeat: no-repeat; background-size:cover ;min-height: 40vw;}
+
+/*la propriété -webkit-text-stroke permet d'ajouter un contour au texte*/
 
 #cover h2 {color: greenyellow;text-align: center;padding: 10vw;font-size:8vw; -webkit-text-stroke: darkkhaki 0.2vw;}
 
@@ -20,10 +34,10 @@ body{background-color: wheat;}
 
 
 
-#goto{display: flex; flex-direction: row; gap: 8vw; border-top: solid 0.5vw darkslategrey;}
+#goto{ gap: 12vw; border-top: solid 0.5vw darkslategrey;}
 
 
-#goto a{margin: 0vw 1vw 0.5vw 1vw; padding: 1vw 0.5vw 1vw; font-size: 3vw;border-radius: 10%;border: solid 0.2vw;}
+#goto a{margin: 0vw 1vw 0.5vw 5vw; padding: 1vw 0.5vw 1vw; font-size: 3vw;border-radius: 10%;border: solid 0.2vw;}
 
 #décosled{background-color: darkred;color: red;border-color: red;} 
 #jouetsled{background-color:green;color:limegreen;border-color: limegreen;}
@@ -35,20 +49,21 @@ body{background-color: wheat;}
 #platsled:hover{color:lightcyan ;background-color: cyan; border: 0.2vw darkcyan dashed;}
 #pullsled:hover{color:lightpink ;background-color: magenta; border: 0.2vw darkmagenta dashed;}
 
+
 /*la publicité*/
-
-
 
 #pub img {min-width: 20vw; max-width: 20vw; min-height: 100%; margin: 1vw;}
 
-#pub h2{color: crimson; margin: 3vw;-webkit-text-stroke: 0.2vw limegreen; font-size: 6vw;}
+#pub h2{color:darkorange; margin: 3vw; font-size: 6vw; ;}
 #pub{background-image: url("../images/4633484.jpg");min-height: 20vw;background-repeat: no-repeat; background-size:cover;display: flex;flex-direction: row;}
 
 
 
 /*les sections du magasin*/
 
-h1{padding-bottom: 2vw;padding-top: 5vw;color:coral;-webkit-text-stroke: lightcoral 0.1vw;}
+/*le h1 du header n'est pas afffectés par ces propriétés car :not(header *) exclue tous les éléments du header */
+
+   h1:not(header *){padding-bottom: 2vw;padding-top: 5vw;color:yellow;-webkit-text-stroke: darkorange 0.05vw;font-size: 4vw;}
 
 #sort{display: flex; flex-direction: row; height: 28vw; overflow: scroll; scrollbar-color: springgreen forestgreen ;}
 
@@ -74,8 +89,7 @@ button:hover{background-color: greenyellow;}
 button:active{background-color: chartreuse;}
 button:focus{background-color: lime;}
 
-/*le footer de la page, avec les sources*/
 
-footer{background-color: crimson; padding: 1vw }
-footer a{color: greenyellow;}
-footer a:hover{color: chartreuse;}
+/* le dégrdé surce d'orge*/
+
+  

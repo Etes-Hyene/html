@@ -1,16 +1,26 @@
 
-body{background-color:sienna;}
+body{background-color:#8e684f;display: flexbox;flex-direction: column; justify-content: center;margin: 0;}
+
+/*les header et footer de la page, leur barre de navigation avec tous leurs liens, la div titre contient le nom et le login*/
+#titre{display: flex;flex-direction: row; gap: 60vw;}
+#titre h1{color:yellow;font-size: 3vw;}
+header , footer{background-color: crimson; padding: 1vw;}
+nav{display: flex ;flex-direction: row; justify-content:center;}
+header a, footer a{color: greenyellow; margin-right: 10vw;font-size: xx-large;}
+header a:hover, footer a:hover{color: chartreuse;}
 
 /*chaque passage est présenté comme une lettre d'un style différent*/
 
+div:not(#titre){padding :1rem; display: flex ; flex-direction: column; font-style: italic; line-height: 500%; font-size:larger; max-width: 60vw;margin:1vw;min-height: 20vw;}
+
 /*lettre d'introduction*/
-#lettre{color: brown;background-color: burlywood;font-family:Verdana, Geneva, Tahoma, sans-serif;padding :1rem; display: flex ; flex-direction: column; font-style: italic; line-height: 500%; font-size:larger ;text-decoration:underline grey;}
+#lettre{color:darkgoldenrod;background-color: beige;font-family:Verdana, Geneva, Tahoma, sans-serif;text-decoration:underline grey;margin-left: 5vw;}
 
 /*paragraphe de présentation*/
-#intro{}
+#intro{color: seagreen;background-color: mintcream;font-family:Verdana, Geneva, Tahoma, sans-serif;text-decoration:underline grey;margin-left: 15vw}
 
 /*présentation des objectifs*/
-#objectifs{}
+#objectifs{color:slateblue;background-color:azure;font-family:Verdana, Geneva, Tahoma, sans-serif;text-decoration:underline grey}
 
 /*présentation de l'historique*/
-#historique{}
+#historique{color: maroon;background-color:mistyrose;font-family:Verdana, Geneva, Tahoma, sans-serif;text-decoration:underline grey;margin-left: 10vw}
