@@ -24,7 +24,7 @@ h1:not(header *){text-align: center; color: goldenrod;background-color: sienna;m
 
 #sapin{background-image: url("../images/Transparent_Pine_Tree_PNG_Clipart.png");min-width:100% ;min-height:100%;background-repeat: no-repeat; background-size: cover;display: flex;justify-content: space-between;flex-direction: column; background-position: center;}
 
-#sapin * :not(#star) {margin: 10vw; width: 10vw ; background-color: crimson;border-radius:100% ; justify-content: center; padding: 1vw;display: grid;height: 10vw;}
+#sapin * :not(#star) {margin: 8vw; width: 10vw ; background-color: crimson;border-radius:100% ; justify-content: center; padding: 1vw;display: grid;height: 10vw;}
 
 #star{max-width: 30vw; ; align-self: center;margin-top: -10vw;}
 
@@ -40,16 +40,18 @@ h1:not(header *){text-align: center; color: goldenrod;background-color: sienna;m
 #c{margin-left: 10vw;}
 #d{margin-left: 65vw;}
 #e{margin-left: 15vw;}
-#f{margin-left: 60vw;}
+
 
 /* les photos du staff*/
 
-#a h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
-#b h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
-#c h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
-#d h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
-#e h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}   
-#f h3{ background-image: url("../images/depositphotos_505405450-stock-illustration-seamless-pattern-winter-clothing-christmas.webp");}
+h3{background-repeat: no-repeat;background-size: cover;}
+
+#a h3{ background-image: url("../images/bonnet-1.jpg");}
+#b h3{ background-image: url("../images/bonnet-2.jpg");}
+#c h3{ background-image: url("../images/bonnet-3.jpg");}
+#d h3{ background-image: url("../images/bonnet-4.jpg");}
+#e h3{ background-image: url("../images/bonnet-5.jpg");}   
+
 
 
 /* sert à faire disparaitre et apparaitre le texte avec l'indentation et l'image en ajoutant et enlevant l'image de fond quand l'utilisateur pointe sur la boule*/
@@ -65,4 +67,4 @@ h3:hover{opacity: 100%;text-indent: 0;}
 #c h3:hover{ background-image: none}
 #d h3:hover{ background-image: none}
 #e h3:hover{ background-image: none}   
-#f h3:hover{ background-image: none}
+
