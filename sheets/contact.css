@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing:border-box;
+   
+}  
+/* centre le contenu */
+body{
+    font-family: sans-serif;
+    background: center;
+    display: flex;
+    justify-content:center;
+   
+}
+/* disposition du contenu */
+.contact-formulaire{
+border: 2px solid black;
+margin-top: 12%;
+width:100%; 
+display: flex;
+flex-direction: column;
+align-items:center;
+border:none;
+}
+/* Pour ajouter la taille et un espacement interne */
+.titre-contact h2{
+    font-weight: 200;
+    font-size:2rem;
+    margin-bottom:10px;
+}
+/* Pour courber les bordures et ajouter de l'espace */
+.contact-inputs{
+    padding:10px 45px;
+    border-radius:20px;
+}
+button{
+    font-size:12px;
+    padding:10px 20px;
+    border-radius:10px;
+}
