@@ -95,6 +95,12 @@ section.contenu{
    section.contenu{
     height:200vh;
 }
+    .contenu h2{
+    font-size:2rem;
+   }
+   .contenu {
+    text-align:center;
+   }
 }
 
 
