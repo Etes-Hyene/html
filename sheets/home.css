@@ -43,7 +43,6 @@ section.contenu{
 }
 /* Modife logo */
 .navbar .logo{
-    font-size:2em;
     font-weight:bold;
 }
 
@@ -90,12 +89,17 @@ section.contenu{
    .navbar .nav_links ul{
     display: flex;
     padding-top:30;
-    section.contenu{
-        height:150vh;
-    }
-    
+   }
+/* Pour mettre le contenu en bas de la page  */
+   section.contenu{
+    height:200vh;
+    align-items: center;
 }
+   .contenu h2{
+    font-size:2rem;
+   }
+   .contenu {
+    text-align:center;
+   }
+
 }
-
-
-
