@@ -9,11 +9,15 @@ body{border: solid 1vw; border-image: linear-gradient(45deg, red, red 5%, forest
 /*les header et footer de la page, leur barre de navigation avec tous leurs liens, la div titre contient le nom et le login*/
 #titre{display: flex;flex-direction: row; gap: 60vw;}
 #titre h1{color:yellow;font-size: 3vw;}
+#titre a{margin-top: 4vw;}
 header , footer{background-color: crimson; padding: 1vw;}
 nav{display: flex ;flex-direction: row; justify-content:center;}
 header a, footer a{color: greenyellow; margin-right: 10vw;font-size: xx-large;}
 header a:hover, footer a:hover{color: chartreuse;}
 header a:focus, footer a:focus{color: lime;}
+
+
+
 
 /*l'image de couverture*/
 
@@ -81,15 +85,15 @@ header a:focus, footer a:focus{color: lime;}
 /*l'interface octroyée par chaque élément (item) de la section*/
 
 
-#item{ border: burlywood 1vw solid; background-color: tomato; display: flex; padding: 2vw ;flex-direction: column; margin-right:10vw; margin-left:5vw;margin-bottom: 3vw; align-items: center; justify-content:last baseline; min-width:  30vw;  border-radius: 10%; font-size: xx-large; color: darkslategray; }
+#item{ border: burlywood 1vw solid; background-color: tomato; display: flex; padding: 2vw ;flex-direction: column; margin-right:10vw; margin-left:5vw;margin-bottom: 3vw;text-align: center; align-items: center; justify-content:last baseline; min-width:  30vw;  border-radius: 10%; font-size: xx-large; color: darkslategray; }
 
-#item div{text-indent:-9999px;}
-#item div{min-height:75%; min-width:90%;border-radius: 10%;background-image: url("../images/vecteezy_christmas-and-new-year-symbols-seamless-pattern-falling_3706281.jpg");}
+#item div{text-indent:-9999px;background-repeat: no-repeat;background-size: contain;background-position: center;text-align: center;}
+#item div{min-height:75%; min-width:90%;border-radius: 10%;background-color:darkslategray;filter: brightness(1.5);}
 
 
 /*pour afficher la description des produits et faire disparaître l'image*/
 #item div:hover{text-indent: 0;}
-#item div:hover{background-image: none;}
+#item div:hover{background-image: none;background-color: tomato;filter: brightness(1)}
 
 
 button{background-color: burlywood;padding: 1vw;;min-width: 10vw; border:0vw;font-size: xx-large;border-radius: 30%; color: maroon;}
@@ -97,7 +101,34 @@ button:hover{background-color: greenyellow;}
 button:active{background-color: chartreuse;}
 button:focus{background-color: lime;}
 
+/*les images de déco*/
+#déco1{background-image:url("../images/pull-1.png") ;}
+#déco2{background-image:url("../images/pull-2.png") ;}
+#déco3{background-image:url("../images/pull-3.png") ;}
+#déco4{background-image:url("../images/pull-4.png") ;}
+#déco5{background-image:url("../images/pull-5.png") ;}
 
-/* le dégrdé surce d'orge*/
+/*les images de jouet*/
+#jouet1{background-image:url("../images/pull-1.png") ;}
+#jouet2{background-image:url("../images/pull-2.png") ;}
+#jouet3{background-image:url("../images/pull-3.png") ;}
+#jouet4{background-image:url("../images/pull-4.png") ;}
+#jouet5{background-image:url("../images/pull-5.png") ;}
+
+/*les images de nourriture*/
+#plat1{background-image:url("../images/pull-1.png")  ;}
+#plat2{background-image:url("../images/pull-2.png") ;}
+#plat3{background-image:url("../images/pull-3.png") ;}
+#plat4{background-image:url("../images/pull-4.png") ;}
+#plat5{background-image:url("../images/pull-5.png") ;}
+
+/*les images de pull*/
+#pull1{background-image:url("../images/pull-1.png") ;}
+#pull2{background-image:url("../images/pull-2.png") ;}
+#pull3{background-image:url("../images/pull-3.png") ;}
+#pull4{background-image:url("../images/pull-4.png") ;}
+#pull5{background-image:url("../images/pull-5.png") ;}
+
+/* le dégradé sucre d'orge*/
 
   
