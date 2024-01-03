@@ -44,7 +44,7 @@ h1:not(header *){text-align: center; color: goldenrod;background-color: sienna;m
 
 /* les photos du staff*/
 
-h3{background-repeat: no-repeat;background-size: cover;}
+h3{background-repeat: no-repeat;background-size: cover;color: orange;font-size: x-large;text-align: center;padding-top: 10vw;}
 
 #a h3{ background-image: url("../images/bonnet-1.jpg");}
 #b h3{ background-image: url("../images/bonnet-2.jpg");}
