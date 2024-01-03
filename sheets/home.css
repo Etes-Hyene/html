@@ -7,7 +7,7 @@
 }
 body{
       font-family:'poppins';
-      background-image: url("../images/christmas-tree-2928142_1920.jpg"); 
+      background-image: url("christmas-tree-2928142_1920.jpg"); 
       background-repeat: no-repeat;
       
 }
@@ -43,7 +43,6 @@ section.contenu{
 }
 /* Modife logo */
 .navbar .logo{
-    font-size:2em;
     font-weight:bold;
 }
 
@@ -91,17 +90,16 @@ section.contenu{
     display: flex;
     padding-top:30;
    }
-/* Pour Mettre le contenu en fin de page  */
+/* Pour mettre le contenu en bas de la page  */
    section.contenu{
-    height:210vh;
+    height:200vh;
     align-items: center;
-   }
-    .contenu h2{
+}
+   .contenu h2{
     font-size:2rem;
    }
    .contenu {
     text-align:center;
    }
+
 }
-
-
