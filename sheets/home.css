@@ -106,21 +106,21 @@ section.contenu{
   }
 }
 /* styler le footer et ses éléments */
-footer.icon{
+.icon{
     display: flex;
     justify-content: center;  
 }
-footer.icon a{
+.icon a{
     text-decoration:none;
     padding:10px;
     background-color:white;
     margin:10px;
     border-radius:50%;
 }
-footer.icon a i{
+.icon a i{
     font-size:1.5em;
 }
-footer.text{
+.text{
     text-align:center;
     color:white;
     font-size:1em;
