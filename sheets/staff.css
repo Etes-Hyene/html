@@ -60,7 +60,7 @@ h3{background-repeat: no-repeat;background-size: cover;color: orange;font-size: 
 h3{text-indent:-9999px;}
 
 
-h3:hover{opacity: 100%;text-indent: 0;}
+h3:hover{opacity: 100%;text-indent: 0;vertical-align: middle;}
 
 
 #a h3:hover{ background-image: none}

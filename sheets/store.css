@@ -59,7 +59,7 @@ header a:focus, footer a:focus{color: lime;}
 
 #pub img {min-width: 20vw; max-width: 20vw; min-height: 100%; margin: 1vw;border-radius: 10%;}
 
-#pub h2{color:darkorange; margin: 3vw; font-size: 6vw; ;}
+#pub h2{color:darkorange; margin: 3vw; font-size: 6vw;-webkit-text-stroke: 0.1rem maroon ;}
 #pub{background-image: url("../images/4633484.jpg");min-height: 20vw;background-repeat: no-repeat; background-size:cover;display: flex;flex-direction: row;}
 
 
@@ -88,12 +88,12 @@ header a:focus, footer a:focus{color: lime;}
 #item{ border: burlywood 1vw solid; background-color: tomato; display: flex; padding: 2vw ;flex-direction: column; margin-right:10vw; margin-left:5vw;margin-bottom: 3vw;text-align: center; align-items: center; justify-content:last baseline; min-width:  30vw;  border-radius: 10%; font-size: xx-large; color: darkslategray; }
 
 #item div{text-indent:-9999px;background-repeat: no-repeat;background-size: contain;background-position: center;text-align: center;}
-#item div{min-height:75%; min-width:90%;border-radius: 10%;background-color:darkslategray;filter: brightness(1.5);}
+#item div{min-height:75%; min-width:90%;border-radius: 10%;background-color:darkslategray;}
 
 
 /*pour afficher la description des produits et faire disparaître l'image*/
 #item div:hover{text-indent: 0;}
-#item div:hover{background-image: none;background-color: tomato;filter: brightness(1)}
+#sort #item div:hover{background-image: none;background-color: tomato;filter: brightness(1)}
 
 
 button{background-color: burlywood;padding: 1vw;;min-width: 10vw; border:0vw;font-size: xx-large;border-radius: 30%; color: maroon;}
@@ -102,33 +102,42 @@ button:active{background-color: chartreuse;}
 button:focus{background-color: lime;}
 
 /*les images de déco*/
-#déco1{background-image:url("../images/pull-1.png") ;}
-#déco2{background-image:url("../images/pull-2.png") ;}
-#déco3{background-image:url("../images/pull-3.png") ;}
-#déco4{background-image:url("../images/pull-4.png") ;}
-#déco5{background-image:url("../images/pull-5.png") ;}
+
+#décos #item div{background-color:steelblue;}
+
+#déco1{background-image:url("../images/cadeau.png") ;}
+#déco2{background-image:url("../images/bougie.png") ;}
+#déco3{background-image:url("../images/cloche.png") ;}
+#déco4{background-image:url("../images/houx.png") ;}
+#déco5{background-image:url("../images/boule.png") ;}
+
+#jouets #item div{background-color:teal;}
 
 /*les images de jouet*/
-#jouet1{background-image:url("../images/pull-1.png") ;}
-#jouet2{background-image:url("../images/pull-2.png") ;}
-#jouet3{background-image:url("../images/pull-3.png") ;}
-#jouet4{background-image:url("../images/pull-4.png") ;}
-#jouet5{background-image:url("../images/pull-5.png") ;}
+#jouet1{background-image:url("../images/dino.png") ;}
+#jouet2{background-image:url("../images/voiture.png") ;}
+#jouet3{background-image:url("../images/train.png") ;}
+#jouet4{background-image:url("../images/fusée.png") ;}
+#jouet5{background-image:url("../images/canard.png") ;}
+
+#plats #item div{background-color:darkolivegreen;}
 
 /*les images de nourriture*/
-#plat1{background-image:url("../images/pull-1.png")  ;}
-#plat2{background-image:url("../images/pull-2.png") ;}
-#plat3{background-image:url("../images/pull-3.png") ;}
-#plat4{background-image:url("../images/pull-4.png") ;}
-#plat5{background-image:url("../images/pull-5.png") ;}
+#plat1{background-image:url("../images/6272928-removebg-preview.png") ;}
+#plat2{background-image:url("../images/7997540-removebg-preview.png") ;}
+#plat3{background-image:url("../images/5873641-removebg-preview.png") ;}
+#plat4{background-image:url("../images/panettone.png") ;}
+#plat5{background-image:url("../images/gateau-noel-illustration-homme-au-pain-epice-isole_18591-84036-removebg-preview.png") ;}
 
 /*les images de pull*/
+
+#pulls #item div{filter: brightness(1.5);background-color: darkslategrey;}
+
 #pull1{background-image:url("../images/pull-1.png") ;}
 #pull2{background-image:url("../images/pull-2.png") ;}
 #pull3{background-image:url("../images/pull-3.png") ;}
 #pull4{background-image:url("../images/pull-4.png") ;}
 #pull5{background-image:url("../images/pull-5.png") ;}
 
-/* le dégradé sucre d'orge*/
 
   
