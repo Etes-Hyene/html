@@ -15,6 +15,11 @@
      background-position:center;
     border-radius: 150px;
   }
+/* pour mettre  les element en colonne*/
+.conteneur{
+    display:flex;
+    flex-direction: column;
+}
   .wrapper{
     width:420px;
     background:transparent;
@@ -99,6 +104,37 @@
 .register-link p a:hover{
     text-decoration: underline;
 }
+/*les header et footer de la page, leur barre de navigation avec tous leurs liens, la div titre contient le nom et le login*/
+#titre{display: flex;
+       flex-direction: row;
+       gap: 60vw;
+      }
+#titre h1{
+    color:yellow;
+    font-size: 5vw;
+}
+#titre a{
+    margin-top: 4vw;
+}
+header , footer{background-color: crimson;
+                padding: 1vw;
+                font-size: 1vw;
+               }
+nav{
+    display: flex ;
+    flex-direction: row;
+    justify-content:center;}
+header a, footer a{
+    color: greenyellow;
+    margin-right: 10vw;
+    font-size: 2vw;}
+header a:hover, footer a:hover{
+    color: chartreuse;
+}
+header a:focus, footer a:focus{
+    color: lime;
+}
+
   
  
 
