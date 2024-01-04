@@ -15,6 +15,11 @@
      background-position:center;
     border-radius: 150px;
   }
+/* pour mettre  les element en colonne*/
+.conteneur{
+    display:flex;
+    flex-direction: column;
+}
   .wrapper{
     width:420px;
     background:transparent;
@@ -129,11 +134,7 @@ header a:hover, footer a:hover{
 header a:focus, footer a:focus{
     color: lime;
 }
-/* pour mettre  les element en colonne*/
-.conteneur{
-    display:flex;
-    flex-direction: column;
-}
+
   
  
 
