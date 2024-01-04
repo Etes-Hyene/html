@@ -12,7 +12,7 @@ body{ background-color: chocolate;margin: 0;}
 /*les header et footer de la page, leur barre de navigation avec tous leurs liens, la div titre contient le nom et le login*/
 #titre{display: flex;flex-direction: row; gap: 60vw;}
 #titre h1{color:yellow;font-size: 5vw;}
-#titre a{margin-top: 4vw;}
+#titre a{margin-top: 5vw;min-width: 11vw}
 header , footer{background-color: crimson; padding: 1vw;font-size: 1vw;}
 nav{display: flex ;flex-direction: row; justify-content:center;}
 header a, footer a{color: greenyellow; margin-right: 10vw;font-size: 2vw;}
