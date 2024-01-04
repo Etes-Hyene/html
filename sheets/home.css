@@ -110,17 +110,17 @@ section.contenu{
     display: flex;
     justify-content: center;  
 }
-.icon a{
+footer.icon a{
     text-decoration:none;
     padding:10px;
     background-color:white;
     margin: 10px;;
     border-radius:50%;
 }
-.icon a i{
+footer.icon a i{
     font-size:1.5em;
 }
-.text{
+footer.text{
     text-align: center;
     color:white;
     font-size:1em;
