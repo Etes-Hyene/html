@@ -101,5 +101,28 @@ section.contenu{
    .contenu {
     text-align:center;
    }
+    footer p{
+    color:black;
+  }
 
+}
+/* styler le footer et ses éléments */
+.icon{
+    display: flex;
+    justify-content: center;  
+}
+.icon a{
+    text-decoration:none;
+    padding:10px;
+    background-color:white;
+    margin: 10px;;
+    border-radius:50%;
+}
+.icon a i{
+    font-size:1.5em;
+}
+.text{
+    text-align: center;
+    color:white;
+    font-size:1em;
 }
