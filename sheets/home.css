@@ -44,6 +44,7 @@ section.contenu{
 /* Modife logo */
 .navbar .logo{
     font-weight:bold;
+    font-size:2rem
 }
 
 /* alige le ul */
@@ -61,6 +62,26 @@ section.contenu{
     top: 5px;
     right: 50px;
     width: 50px;
+}
+/* styler le footer et ses éléments */
+.icon{
+    display: flex;
+    justify-content: center;  
+}
+.icon a{
+    text-decoration:none;
+    padding:10px;
+    background-color:white;
+    margin:10px;
+    border-radius:50%;
+}
+.icon a i{
+    font-size:1.5em;
+}
+.text{
+    text-align:center;
+    color:white;
+    font-size:1em;
 }
 /* nodifcatin lorsque l'ecran passe a 900px */
 @media screen and (max-width:900px){
@@ -104,24 +125,4 @@ section.contenu{
     footer p{
     color:black;
   }
-}
-/* styler le footer et ses éléments */
-.icon{
-    display: flex;
-    justify-content: center;  
-}
-footer.icon a{
-    text-decoration:none;
-    padding:10px;
-    background-color:white;
-    margin: 10px;;
-    border-radius:50%;
-}
-footer.icon a i{
-    font-size:1.5em;
-}
-footer.text{
-    text-align: center;
-    color:white;
-    font-size:1em;
 }
