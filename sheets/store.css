@@ -8,11 +8,11 @@ body{border: solid 1vw; border-image: linear-gradient(45deg, red, red 5%, forest
 
 /*les header et footer de la page, leur barre de navigation avec tous leurs liens, la div titre contient le nom et le login*/
 #titre{display: flex;flex-direction: row; gap: 60vw;}
-#titre h1{color:yellow;font-size: 3vw;}
+#titre h1{color:yellow;font-size: 5vw;}
 #titre a{margin-top: 4vw;}
-header , footer{background-color: crimson; padding: 1vw;}
+header , footer{background-color: crimson; padding: 1vw;font-size: 1vw;}
 nav{display: flex ;flex-direction: row; justify-content:center;}
-header a, footer a{color: greenyellow; margin-right: 10vw;font-size: xx-large;}
+header a, footer a{color: greenyellow; margin-right: 10vw;font-size: 3vw;}
 header a:hover, footer a:hover{color: chartreuse;}
 header a:focus, footer a:focus{color: lime;}
 
@@ -59,7 +59,7 @@ header a:focus, footer a:focus{color: lime;}
 
 #pub img {min-width: 20vw; max-width: 20vw; min-height: 100%; margin: 1vw;border-radius: 10%;}
 
-#pub h2{color:darkorange; margin: 3vw; font-size: 6vw;-webkit-text-stroke: 0.1rem maroon ;}
+#pub h2{color:darkorange; margin: 3vw; font-size: 6vw;-webkit-text-stroke: 0.1vw maroon ;}
 #pub{background-image: url("../images/4633484.jpg");min-height: 20vw;background-repeat: no-repeat; background-size:cover;display: flex;flex-direction: row;}
 
 
@@ -85,7 +85,7 @@ header a:focus, footer a:focus{color: lime;}
 /*l'interface octroyée par chaque élément (item) de la section*/
 
 
-#item{ border: burlywood 1vw solid; background-color: tomato; display: flex; padding: 2vw ;flex-direction: column; margin-right:10vw; margin-left:5vw;margin-bottom: 3vw;text-align: center; align-items: center; justify-content:last baseline; min-width:  30vw;  border-radius: 10%; font-size: xx-large; color: darkslategray; }
+#item{ border: burlywood 1vw solid; background-color: tomato; display: flex; padding: 2vw ;flex-direction: column; margin-right:10vw; margin-left:5vw;margin-bottom: 3vw;text-align: center; align-items: center; justify-content:last baseline; min-width:  30vw;  border-radius: 10%; font-size: 2vw; color: darkslategray; }
 
 #item div{text-indent:-9999px;background-repeat: no-repeat;background-size: contain;background-position: center;text-align: center;}
 #item div{min-height:75%; min-width:90%;border-radius: 10%;background-color:darkslategray;}
@@ -96,7 +96,7 @@ header a:focus, footer a:focus{color: lime;}
 #sort #item div:hover{background-image: none;background-color: tomato;filter: brightness(1)}
 
 
-button{background-color: burlywood;padding: 1vw;;min-width: 10vw; border:0vw;font-size: xx-large;border-radius: 30%; color: maroon;}
+button{background-color: burlywood;padding: 1vw;;min-width: 10vw; border:0vw;font-size: 2vw;border-radius: 30%; color: maroon;}
 button:hover{background-color: greenyellow;}
 button:active{background-color: chartreuse;}
 button:focus{background-color: lime;}
