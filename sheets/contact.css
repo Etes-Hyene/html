@@ -38,3 +38,55 @@ button{
     padding:10px 20px;
     border-radius:10px;
 }
+#titre{
+    display:flex;
+    flex-direction: row;
+    gap: 60vw;
+}
+#titre h1{
+    color:red;
+    font-size:2.5rem;
+    margin-top: 2%;
+    padding:auto;
+}
+#titre a{
+    margin-top: 4vw;
+}
+header , footer{
+    background: transparent;
+    padding: auto;
+    width:100%;
+}
+nav{
+    display: flex ;
+    flex-direction: row;
+    justify-content:center;}
+header a, footer a{
+    color:rgb(23, 139, 23);
+    margin-right: 5vw;
+    font-size: 1.2rem;}
+header a:hover, footer a:hover{
+    color: chartreuse;
+}
+header a:focus, footer a:focus{
+    color: lime;
+}/* styler le footer et ses éléments */
+.icon{
+    display: flex;
+    justify-content: center;  
+}
+.icon a{
+    text-decoration:none;
+    padding:10px;
+    background-color:white;
+    margin: 10px;;
+    border-radius:50%;
+}
+.icon a i{
+    font-size:1.5em;
+}
+.text{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size:1em;
+}
