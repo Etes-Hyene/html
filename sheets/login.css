@@ -106,7 +106,8 @@
 #titre{
     display:flex;
     flex-direction: row;
-    gap: 60vw;
+    justify-content: space-between;
+    /* gap: 20vw; */
 }
 #titre h1{
     color:yellow;
