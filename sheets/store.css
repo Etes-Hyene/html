@@ -12,7 +12,7 @@ body{border: solid 1vw; border-image: linear-gradient(45deg, red, red 5%, forest
 #titre a{margin-top: 4vw;}
 header , footer{background-color: crimson; padding: 1vw;font-size: 1vw;}
 nav{display: flex ;flex-direction: row; justify-content:center;}
-header a, footer a{color: greenyellow; margin-right: 10vw;font-size: 3vw;}
+header a, footer a{color: greenyellow; margin-right: 10vw;font-size: 2vw;}
 header a:hover, footer a:hover{color: chartreuse;}
 header a:focus, footer a:focus{color: lime;}
 

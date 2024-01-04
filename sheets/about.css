@@ -8,7 +8,7 @@ body{margin: 0;background-image: linear-gradient(90deg, rgba(112,75,75,1) 19%, r
 #titre a{margin-top: 4vw;}
 header , footer{background-color: crimson; padding: 1vw;font-size: 1vw;}
 nav{display: flex ;flex-direction: row; justify-content:center;}
-header a, footer a{color: greenyellow; margin-right: 10vw;font-size: 3vw;}
+header a, footer a{color: greenyellow; margin-right: 10vw;font-size: 2vw;}
 header a:hover, footer a:hover{color: chartreuse;}
 header a:focus, footer a:focus{color: lime;}
 
