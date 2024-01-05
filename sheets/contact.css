@@ -39,10 +39,11 @@ button{
     border-radius:10px;
 }
 #titre{
+    #titre{
     display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* gap: 20vw; */
+    flex-direction:row;
+    justify-content: space-around;
+     gap: 45vw; 
 }
 #titre h1{
     color:red;
