@@ -54,7 +54,7 @@ button{
     margin-top: auto;
 }
 header , footer{
-    background: transparent;
+    background: red;
     padding: auto;
     width:100%;
 }
@@ -63,7 +63,7 @@ nav{
     flex-direction: row;
     justify-content:center;}
 header a, footer a{
-    color:rgb(23, 139, 23);
+    color:rgb(0, 0, 0);
     margin-right: 5vw;
     font-size: 1.2rem;}
 header a:hover, footer a:hover{
