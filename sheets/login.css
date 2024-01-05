@@ -1,11 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     font-family: "Poppins", sans-serif;
   }
   body{
      display:flex;
+     flex-direction: column;
      justify-content:center;
      align-items: center;
      min-height:100vh;
@@ -16,10 +17,6 @@
     border-radius: 150px;
   }
 /* pour mettre  les element en colonne*/
-.conteneur{
-    display:flex;
-    flex-direction: column;
-}
   .wrapper{
     width:420px;
     background:transparent;
@@ -27,6 +24,7 @@
     color:yellow;
     border-radius:12px;
     padding: 30px 40px;
+    margin:0 15px;
   }
   .wrapper h1{
     font-size: 36px;
@@ -105,29 +103,34 @@
     text-decoration: underline;
 }
 /*les header et footer de la page, leur barre de navigation avec tous leurs liens, la div titre contient le nom et le login*/
-#titre{display: flex;
-       flex-direction: row;
-       gap: 60vw;
-      }
+#titre{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 20vw; */
+}
 #titre h1{
     color:yellow;
-    font-size: 5vw;
+    font-size:2.5rem;
+    margin-top: 2%;
+    padding:auto;
 }
 #titre a{
     margin-top: 4vw;
 }
-header , footer{background-color: crimson;
-                padding: 1vw;
-                font-size: 1vw;
-               }
+header , footer{
+    background: transparent;
+    padding: auto;
+    width:100%;
+}
 nav{
     display: flex ;
     flex-direction: row;
     justify-content:center;}
 header a, footer a{
     color: greenyellow;
-    margin-right: 10vw;
-    font-size: 2vw;}
+    margin-right: 5vw;
+    font-size: 1.2rem;}
 header a:hover, footer a:hover{
     color: chartreuse;
 }
