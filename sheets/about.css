@@ -14,16 +14,16 @@ header a:focus, footer a:focus{color: lime;}
 
 /*chaque passage est présenté comme une lettre d'un style différent*/
 
-div:not(#titre){padding :1rem; font-style: italic; line-height: 500%; font-size:2vw; width: 60vw;margin-top:1.5vw ; margin-bottom:1.5vw;min-height: 20vw;}
+div:not(#titre){padding :1rem; font-style: italic; line-height: 200%; font-size:2vw; width: 60vw;margin-top:1.5vw ; margin-bottom:1.5vw;min-height: 20vw;}
 
 /*lettre d'introduction*/
-#lettre{color:darkblue;background-color: beige;font-family:cursive;text-decoration:underline darkslategrey; margin-left:10vw}
+#lettre{color:darkblue;background-color: beige;font-family:'comic sans ms', Arial; text-decoration:underline darkslategrey; margin-left:10vw}
 
 /*paragraphe de présentation*/
-#intro{color: darkmagenta;background-color: mintcream;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;text-decoration:underline grey;margin-left: 15vw}
+#intro{color: darkmagenta;background-color: mintcream;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Arial, sans-serif;text-decoration:underline grey;margin-left: 15vw}
 
 /*présentation des objectifs*/
-#objectifs{color:darkslateblue;background-color:azure;font-family:cursive;text-decoration:underline grey;margin-left: 5vw}
+#objectifs{color:darkslateblue;background-color:azure;font-family:'Palatino Linotype',cursive;text-decoration:underline grey;margin-left: 5vw;}
 
 /*présentation de l'historique*/
-#historique{color:rebeccapurple;background-color:mistyrose;font-family:Verdana, Geneva, Tahoma, sans-serif;text-decoration:underline grey;margin-left: 20vw}
+#historique{color:rebeccapurple;background-color:mistyrose;font-family:'Perpetua',Verdana, Geneva, Tahoma, sans-serif;text-decoration:underline grey;margin-left: 20vw}
