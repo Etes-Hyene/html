@@ -62,7 +62,7 @@
   .wrapper .remember-forgot{
     display:flex;
     justify-content:space-between;
-    font: size 13px;
+    font-size:13px;
     margin: -15px 0 15x;
   }
   .remember-forgot label input{
@@ -90,7 +90,7 @@
     font-weight:600;
   }
   .wrapper .register-link{
-    font: size 13px;
+    font-size: 13px;
     text-align: center;
     margin:20px 0 15px;
   }
