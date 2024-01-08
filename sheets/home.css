@@ -18,7 +18,6 @@ section.contenu{
     flex-direction:column;
     align-items: center;
     justify-content: center;
-/*     text-emphasis: center; */
     color: white;
 }
 .contenu h2{
