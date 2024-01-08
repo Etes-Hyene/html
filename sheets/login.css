@@ -63,7 +63,7 @@
     display:flex;
     justify-content:space-between;
     font-size:13px;
-    margin: -15px 0 15x;
+    margin: -15px 0 15px;
   }
   .remember-forgot label input{
     accent-color:#121212;
