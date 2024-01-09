@@ -18,16 +18,24 @@ section.contenu{
     flex-direction:column;
     align-items: center;
     justify-content: center;
+    text-emphasis: center;
     color: white;
 }
 .contenu h2{
     font-size:3rem;
     margin-bottom:1rem;
 }
+/* Style de video  */
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top:-10%;
+    margin-bottom:15%;
+}
 /* mettre le navbar en positon absolu*/
 .navbar{
     position: absolute;
-    height: 60px;
+    height: 10vh;
     padding: 30px;
     display: flex;
     align-items: center;
@@ -82,13 +90,6 @@ section.contenu{
     color:white;
     font-size:1em;
 }
-/* Style de video  */
-.video{
-    display: flex;
-    justify-content: center;
-    margin-top:-10%;
-    margin-bottom:15%;
-}
 /* nodifcatin lorsque l'ecran passe a 900px */
 @media screen and (max-width:900px){
     .navbar{
@@ -96,6 +97,10 @@ section.contenu{
     }
     .navbar .menu{
         display: block;
+    }
+    .video{
+        margin-top:-40%;
+        margin-bottom:5%;
     }
     
    .nav_links{
@@ -108,10 +113,6 @@ section.contenu{
     justify-content:center;
     align-items: center;
    } 
-    .video{
-        margin-top:-40%;
-        margin-bottom:5%;
-    }
    .nav_links ul{
     display:flex;
     flex-direction: column;
@@ -119,7 +120,7 @@ section.contenu{
    }
    .navbar .nav_links ul{
     display: flex;
-    padding-top:30px;
+    padding-top:30;
    }
 /* Pour mettre le contenu en bas de la page  */
    section.contenu{
