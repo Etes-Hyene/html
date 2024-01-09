@@ -108,6 +108,10 @@ section.contenu{
     justify-content:center;
     align-items: center;
    } 
+    .video{
+        margin-top:-40%;
+        margin-bottom:5%;
+    }
    .nav_links ul{
     display:flex;
     flex-direction: column;
