@@ -82,6 +82,13 @@ section.contenu{
     color:white;
     font-size:1em;
 }
+/* Style de video  */
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top:-10%;
+    margin-bottom:15%;
+}
 /* nodifcatin lorsque l'ecran passe a 900px */
 @media screen and (max-width:900px){
     .navbar{
