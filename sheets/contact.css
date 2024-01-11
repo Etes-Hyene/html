@@ -10,7 +10,7 @@ body{
     background: center;
     display: flex;
     justify-content:center;
-   
+   background-image: url("../images/snow-angel-144334598992U.jpg");
 }
 /* disposition du contenu */
 .contact-formulaire{
