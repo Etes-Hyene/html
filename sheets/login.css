@@ -11,12 +11,12 @@ body{
    align-items: center;
    min-height:100vh;
    background-color: #f50000;
-   background:url(../images/christmas-2918_1920.jpg) no-repeat;
+   background:url(../image/christmas-2918_1920.jpg) no-repeat;
    background-size:cover;
    background-position:center;
   border-radius: 150px;
 }
-/* pour mettre  les style a wrapper tout les sous éléments de wrapper*/
+/* pour mettre  les element en colonne*/
 .wrapper{
   width:420px;
   font-family:12px;
@@ -47,7 +47,7 @@ body{
   outline:none;
   border:2px solid rgba(245, 7, 7, 0.911);
   border-radius:40px;
-  font-size: 20px;
+  font-size: 1.5rem;
   color: #fcf5f5;
   padding: 20px 45px 20px 20px;
 }
@@ -86,7 +86,7 @@ body{
   border-radius:40px;
   box-shadow:0 0 10px rgba(0,0,0,.1);
   cursor:pointer;
-  font-size:20px;
+  font-size:1.3rem;
   color:#000000;
   font-weight:bold;
   margin-left:25%;
@@ -114,12 +114,20 @@ body{
   color:yellow;
   font-size:2.3rem;
 }
+header{
+  margin-top: 0.5%;
+  margin-bottom:4%;
+}
+footer{
+  margin-top: 0.5%;
+}
+
 header , footer{
   background: transparent;
-  width:100%;
+  width:100%; 
 }
  #titre a{
-  padding-top:14px;
+  padding-top:1.8%;
 } 
 
 footer p{
@@ -131,7 +139,7 @@ nav{
   justify-content:center;}
 header a, footer a{
   color: rgb(78, 234, 26);
-  margin-right: 5vw;
+   margin-right: 6vw; 
   font-size: 1.2rem;}
 header a:hover, footer a:hover{
   color: chartreuse;
@@ -139,7 +147,3 @@ header a:hover, footer a:hover{
 header a:focus, footer a:focus{
   color: lime;
 }
-
-
-
-
